@@ -1,19 +1,12 @@
 #include <Arduino.h>
-int radius = 18;
-int circum = radius * 2 * 3;
-int c_delay = 1000 / (10 * circum);
 
 void setup() {
-  // put your setup code here, to run once:
-  pinMode(3, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(7, OUTPUT);
-  pinMode(9, OUTPUT);
+	Car mechs = Car(5, 6, 9, 10, 48, 15, 9);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  
+
 }
 
 
