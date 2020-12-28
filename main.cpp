@@ -5,7 +5,8 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  mechs.forward(10);
+  mechs.right(90);
 
 }
 
